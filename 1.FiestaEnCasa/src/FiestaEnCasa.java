@@ -22,7 +22,7 @@ public class FiestaEnCasa {
     imprimir(frase3, 0,1);
     imprimir(separador, 0,0);
     for (String persona : fiesta) {
-        imprimir(persona,1,1);
+        imprimir(persona,1,1)
         System.out.print(" ");
     }
     enter(3);
@@ -76,7 +76,7 @@ public class FiestaEnCasa {
     imprimir("¿Alguien recuerda si está Pedro en la lista?", 0, 1);
     boolean pedroLista = false;
     for (int i =0 ; i<fiesta.size();i++){
-        if ("ped".equalsIgnoreCase(fiesta.get(i))) {
+        if ("pedro".equalsIgnoreCase(fiesta.get(i))) {
             pedroLista = true;
             i = fiesta.size();
         }

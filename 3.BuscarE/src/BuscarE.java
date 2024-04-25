@@ -6,7 +6,7 @@ public class BuscarE {
         // String fraseAleatoria = "Los errores del pasado son la sabiduría del presente";
         // Decir si existe la letra "e", cuántas veces aparece, y en qué posiciones.
 
-        String fraseAleatoria = "Los errores del pasado son la sabiduría del presente.";
+        String fraseAleatoria = "Los errores del pasado son la sabiduría del presente. E";
         ArrayList <Integer> posiciones = new ArrayList<>();
         String indices = "";
 
