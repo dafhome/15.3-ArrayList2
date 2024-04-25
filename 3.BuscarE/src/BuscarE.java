@@ -1,10 +1,13 @@
 import java.util.ArrayList;
+import imprimir.java.print;
+
 
 public class BuscarE {
     public static void main(String[] args) throws Exception {
         // 3- En la siguiente frase:
         // String fraseAleatoria = "Los errores del pasado son la sabiduría del presente";
         // Decir si existe la letra "e", cuántas veces aparece, y en qué posiciones.
+
 
         String fraseAleatoria = "Los errores del pasado son la sabiduría del presente. E";
         ArrayList <Integer> posiciones = new ArrayList<>();
@@ -40,22 +43,22 @@ public class BuscarE {
 
         }
 
-
-        static void imprimir(String frase, int enter, int sleep) {
+        public void imprimir(String frase, int enter, int sleep) {
             try {
                 for (int i = 0; i < frase.length(); i++) {
                     System.out.print(frase.charAt(i));
                     if (sleep == 1) {
                         Thread.sleep(20);
                     }
-    
+        
                 }
                 if (enter == 1) {
                     System.out.println(" ");
                 }
-    
+        
             } catch (InterruptedException e) {
                 System.out.println(e);
             }
-        }
+    }
+
 }
